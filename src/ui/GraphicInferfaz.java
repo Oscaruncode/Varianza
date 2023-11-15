@@ -28,11 +28,11 @@ public class GraphicInferfaz extends JFrame {
         JPanel panelCentro = new JPanel( );
         panelCentro.setLayout( new GridLayout( 2, 2 ) );
 
-        panelOperacion1 = new PanelOperacion(this);
+        panelOperacion1 = new PanelOperacion(this, "Mediana");
         panelCentro.add( panelOperacion1 );
-        panelOperacion2 = new PanelOperacion(this);
+        panelOperacion2 = new PanelOperacion(this,"Moda");
         panelCentro.add( panelOperacion2 );
-        panelOperacion3 = new PanelOperacion(this);
+        panelOperacion3 = new PanelOperacion(this,"Varianza");
         panelCentro.add( panelOperacion3 );
         add( panelCentro, BorderLayout.CENTER );
 
