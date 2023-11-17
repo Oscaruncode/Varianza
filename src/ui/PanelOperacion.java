@@ -37,7 +37,7 @@ public class PanelOperacion extends JPanel implements ActionListener{
         panelDatos.add(txtDatos);
 
 
-        ImageIcon icono = new ImageIcon("C:\\Users\\elger\\IdeaProjects\\Varianza\\data\\imagenes\\lapiz.png");
+        ImageIcon icono = new ImageIcon("data/imagenes/lapiz.png");
         lblImagen.setIcon( icono );
     }
 

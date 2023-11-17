@@ -12,7 +12,7 @@ public class PanelImagen extends JPanel {
     public PanelImagen() {
 
         setLayout(new BorderLayout()); // Establecer un diseño de borde para colocar la imagen en el centro del panel.
-        Icon imagen = new ImageIcon("C:\\Users\\elger\\IdeaProjects\\Varianza\\data\\imagenes\\Encabezado.png");
+        Icon imagen = new ImageIcon("data/imagenes/Encabezado.png");
 
         lblImagen = new JLabel(imagen);
         add(lblImagen, BorderLayout.CENTER);
@@ -24,3 +24,5 @@ public class PanelImagen extends JPanel {
         }
     }
 }
+
+

@@ -4,7 +4,6 @@ import java.awt.*;
 
 import javax.swing.*;
 
-
 public class GraphicInferfaz extends JFrame {
 
     private PanelImagen panelImagen;
